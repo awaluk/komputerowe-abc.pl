@@ -14,4 +14,4 @@ install:
     - php bin/console doctrine:schema:create --env=test
 
 script:
-    - phpunit
+    - php vendor/bin/phpunit
